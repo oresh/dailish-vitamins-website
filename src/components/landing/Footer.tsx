@@ -10,10 +10,13 @@ const Footer = () => {
         </p>
         <div>
           <a href="#download-app-store">
-            <img src="/download-icon-white.svg" alt="Download on the App Store" className="h-14 w-auto mx-auto" />
+            <img src="download-icon-white.svg" alt="Download on the App Store" className="h-14 w-auto mx-auto" />
           </a>
         </div>
-        <div className="pt-8 text-sm !text-primary-foreground/60">
+        <div className="pt-4 text-sm !text-primary-foreground/70">
+          <p>Need help? Contact us at <a href="mailto:dailish@borzov.me" className="underline hover:no-underline">dailish@borzov.me</a></p>
+        </div>
+        <div className="pt-4 text-sm !text-primary-foreground/60">
           <p>&copy; 2025 Dailish. All Rights Reserved. Made with 💚.</p>
         </div>
       </div>

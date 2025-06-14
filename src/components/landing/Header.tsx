@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <h1 className="text-2xl font-bold font-serif !text-primary">Dailish</h1>
         <a href="#download">
-          <img src="/download-icon.svg" alt="Download on the App Store" className="h-8 w-auto" />
+          <img src="download-icon.svg" alt="Download on the App Store" className="h-8 w-auto" />
         </a>
       </div>
     </header>

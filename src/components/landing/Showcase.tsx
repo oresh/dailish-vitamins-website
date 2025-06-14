@@ -18,7 +18,7 @@ const Showcase = () => {
             <div className="absolute bottom-10 -left-10 w-56 h-72 bg-primary/10 rotate-6 rounded-2xl opacity-50"></div>
             
             <div className="relative w-72 h-[600px] bg-gray-800 rounded-[52px] border-[14px] border-gray-800 shadow-2xl overflow-hidden -rotate-3 transition-transform hover:rotate-0 z-10">
-               <img src="/vitamins.png" alt="Dailish App Vitamins Screenshot" className="absolute top-0 left-0 w-full h-full object-cover" />
+               <img src="vitamins.png" alt="Dailish App Vitamins Screenshot" className="absolute top-0 left-0 w-full h-full object-cover" />
             </div>
           </div>
         </div>

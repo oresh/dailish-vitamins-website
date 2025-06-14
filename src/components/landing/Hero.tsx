@@ -16,7 +16,7 @@ const Hero = () => {
             </p>
             <div className="animate-fade-in-up flex justify-center md:justify-start" style={{ animationDelay: '0.5s' }}>
               <a href="#download">
-                <img src="/download-icon.svg" alt="Download on the App Store" className="h-14 w-auto" />
+                <img src="download-icon.svg" alt="Download on the App Store" className="h-14 w-auto" />
               </a>
             </div>
           </div>
@@ -29,10 +29,10 @@ const Hero = () => {
       {/* Hand holding phone positioned absolutely in bottom right corner */}
       <div className="absolute bottom-0 right-0 animate-fade-in-up hidden md:block" style={{ animationDelay: '0.2s' }}>
         <div className="relative">
-          <img src="/hand.png" alt="Hand holding phone" className="relative w-80 md:w-[400px] h-auto z-20" />
+          <img src="hand.png" alt="Hand holding phone" className="relative w-80 md:w-[400px] h-auto z-20" />
           {/* Phone mockup positioned inside the hand */}
           <div className="absolute overflow-hidden z-10" style={{ top: '24px', left: '63px', width: '217px', height: '471px' }}>
-            <img src="/homescreen.png" alt="Dailish App Screenshot" className="w-full h-full object-cover z-10" />
+            <img src="homescreen.png" alt="Dailish App Screenshot" className="w-full h-full object-cover z-10" />
           </div>
         </div>
       </div>
