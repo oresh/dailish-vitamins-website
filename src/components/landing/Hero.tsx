@@ -25,7 +25,15 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative flex justify-center animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            <div className="relative w-64 h-[520px] bg-gray-800 rounded-[48px] border-[12px] border-gray-800 shadow-2xl overflow-hidden">
+            {/* Decorations */}
+            <div className="absolute -bottom-16 -left-16 w-48 h-48 bg-secondary/10 rounded-full blur-3xl"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&auto=format&fit=crop"
+              alt="Green leaves decoration"
+              className="absolute -top-20 -right-20 w-56 h-auto object-contain transform -rotate-12 opacity-90"
+            />
+            
+            <div className="relative w-64 h-[520px] bg-gray-800 rounded-[48px] border-[12px] border-gray-800 shadow-2xl overflow-hidden z-10">
               <img src="/placeholder.svg" alt="Dailish App Screenshot" className="absolute top-0 left-0 w-full h-full object-cover" />
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-xl"></div>
             </div>
