@@ -1,4 +1,3 @@
-
 const Showcase = () => {
   return (
     <section className="py-16 md:py-24">
@@ -18,9 +17,8 @@ const Showcase = () => {
             <div className="absolute top-10 -right-10 w-64 h-80 bg-secondary/20 -rotate-12 rounded-2xl opacity-50"></div>
             <div className="absolute bottom-10 -left-10 w-56 h-72 bg-primary/10 rotate-6 rounded-2xl opacity-50"></div>
             
-            <div className="relative w-72 h-[560px] bg-gray-800 rounded-[52px] border-[14px] border-gray-800 shadow-2xl overflow-hidden -rotate-3 transition-transform hover:rotate-0 z-10">
-               <img src="/placeholder.svg" alt="Dailish App Nerdy Features" className="absolute top-0 left-0 w-full h-full object-cover" />
-               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-36 h-7 bg-gray-800 rounded-b-xl"></div>
+            <div className="relative w-72 h-[600px] bg-gray-800 rounded-[52px] border-[14px] border-gray-800 shadow-2xl overflow-hidden -rotate-3 transition-transform hover:rotate-0 z-10">
+               <img src="/vitamins.png" alt="Dailish App Vitamins Screenshot" className="absolute top-0 left-0 w-full h-full object-cover" />
             </div>
           </div>
         </div>
